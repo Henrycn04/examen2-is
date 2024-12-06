@@ -4,9 +4,15 @@
 ```
 npm install
 ```
-npm install --save-dev jest @vue/test-utils@next vue-jest@next
+### For the use of bootstrap:
+```
+npm install bootstrap@4.6.0
+```
 
-
+### For the use of jest for unit tests:
+```
+npm install --save-dev jest@26 babel-jest@26 vue-jest@5.0.0-alpha.10 @vue/test-utils@next @babel/core @babel/preset-env
+```
 
 ### Compiles and hot-reloads for development
 ```
@@ -18,10 +24,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+## To compile and execute the unit tests
 ```
-npm run lint
+npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

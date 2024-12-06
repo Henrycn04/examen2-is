@@ -186,7 +186,6 @@
 
 <script>
 export default {
-  name: "MaquinaCafe",
   data() {
     return {
       cafes: [
@@ -211,7 +210,7 @@ export default {
         {
           nombre: "Mocachino",
           precio: 1500,
-          cantidad: 1,
+          cantidad: 2,
           icono: "fas fa-coffee",
         },
       ],
@@ -330,7 +329,7 @@ export default {
     },
     verificarPagoSuficiente() {
       this.calculateTotalIngresado();
-      if (this.totalIngresado < this.totalIngresado) {
+      if (this.totalIngresado < this.totalPagar) {
         this.mensajeError = "El monto ingresado es insuficiente para realizar la compra.";
         return false;
       }
