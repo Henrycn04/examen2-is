@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <CoffeeMachine />
+    <MaquinaExpendedora />
   </div>
 </template>
 
 <script>
-import CoffeeMachine from "./components/CoffeeMachine.vue";
+import MaquinaExpendedora from "./components/MaquinaExpendedora.vue";
 
 export default {
   name: "App",
   components: {
-    CoffeeMachine,
+    MaquinaExpendedora,
   },
 };
 </script>

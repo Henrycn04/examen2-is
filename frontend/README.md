@@ -4,6 +4,9 @@
 ```
 npm install
 ```
+npm install --save-dev jest @vue/test-utils@next vue-jest@next
+
+
 
 ### Compiles and hot-reloads for development
 ```
